@@ -1813,8 +1813,8 @@
         // eslint-disable-next-line react/sort-comp
 
       }, {
-        key: "componentDidUnmount",
-        value: function componentDidUnmount() {
+        key: "componentWillUnmount",
+        value: function componentWillUnmount() {
           var formsy = this.context.formsy;
           formsy.detachFromForm(this);
         }
